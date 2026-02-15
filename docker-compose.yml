@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  ai-research-engine:
+    build: .
+    ports:
+      - "7861:7861"
+    volumes:
+      - ./data:/app/data
+      - ./vector_store:/app/vector_store
+      - ./.env:/app/.env
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
