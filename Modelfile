@@ -4,9 +4,9 @@ FROM phi3:mini
 # Low temperature = highly deterministic, factual, zero creative hallucination
 PARAMETER temperature 0.05
 # Long prediction length to ensure complete legal opinions
-PARAMETER num_predict 1024
+PARAMETER num_predict 512
 # Full context window to process multiple long legal chunks
-PARAMETER num_ctx 4096
+PARAMETER num_ctx 2048
 
 # ── Baking the Persona and Rules ──────────────────────────────────────────────
 SYSTEM """
