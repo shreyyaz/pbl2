@@ -24,8 +24,8 @@ An intelligent, **100% local** legal research assistant that helps lawyers, judg
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/psychic-coder/ai_resarch_pbl.git
-cd ai_resarch_pbl
+git clone https://github.com/shreyyaz/legal-rag-assistant.git
+cd legal-rag-assistant
 pip install -r requirements.txt
 ```
 
